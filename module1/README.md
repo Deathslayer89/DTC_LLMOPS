@@ -1,5 +1,14 @@
 # LLM ZoomCamp Module 1 Homework - ElasticSearch 
 
+## Setup Files
+- **ElasticSearch Setup:** [docker-compose.yml](./docker-compose.yml)
+- **Homework Solution:** [script.py](./script.py)
+
+## Usage
+1. Start ElasticSearch: `docker-compose up -d`
+2. Run homework solution: `python3 script.py`
+3. Stop ElasticSearch: `docker-compose down`
+
 ## Solutions
 
 ### Q1: ElasticSearch Build Hash
@@ -25,4 +34,3 @@ Built a context from 3 search results and created a teaching assistant prompt te
 ### Q6: Token Count
 **Answer:** `320`
 Used tiktoken with gpt-4o encoding to count tokens in the constructed prompt.
-
