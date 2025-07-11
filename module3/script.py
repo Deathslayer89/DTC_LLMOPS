@@ -77,7 +77,6 @@ if os.path.exists(meta_json_path):
     if 'embedding_model' in meta_data:
         print(f"\nEmbedding model used: {meta_data['embedding_model']}")
     else:
-        print("\nSearching for embedding model information in metadata...")
         def find_embedding_info(obj, path=""):
             if isinstance(obj, dict):
                 for key, value in obj.items():
