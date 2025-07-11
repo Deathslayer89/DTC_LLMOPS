@@ -1,0 +1,3 @@
+dlt[qdrant]
+qdrant-client[fastembed]
+requests 
