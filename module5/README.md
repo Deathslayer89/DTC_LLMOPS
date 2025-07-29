@@ -12,8 +12,6 @@ This module implements a comprehensive search evaluation system that compares di
 
 - [`search_evaluation.py`](search_evaluation.py) - Main evaluation system
 - [`qdrant_evaluation.py`](qdrant_evaluation.py) - Qdrant vector search evaluation module
-- [`tweets.md`](tweets.md) - Week 5 learning tweets
-- [`faq.md`](faq.md) - FAQ about hybrid search evaluation
 
 ## Answers
 
